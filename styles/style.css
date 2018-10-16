@@ -41,7 +41,7 @@ html {
 }
 
 body {
-    font:normal 16px/28px "Colfax Regular", Helvetica;
+    font:normal 19px/28px "Colfax Regular", Helvetica;
     line-height: 1.5;
   	color:#515254;
     text-align:center;
@@ -87,6 +87,7 @@ h3 {
     color:#000000;
     letter-spacing:0px;
     padding-left: 10px;
+    text-align: left;
 }
 h4 {
     text-transform:uppercase;
@@ -123,6 +124,10 @@ p {
     text-align: left;
 }
 
+ul {
+    text-align: left;
+}
+
 /* Simple lists do not get a bullet */
 ul.simple {
     list-style-type: none;
@@ -135,11 +140,22 @@ ul.pricing {
     font:normal 14px/24px "Colfax Regular", Helvetica;
 }
 
+img.center {
+    width:400px;
+    height:auto;
+    float:center;
+    margin:auto;
+    margin-right:50px;
+    margin-bottom:50px;
+    box-shadow:5px 5px 5px rgba(0,0,0,.2);
+    max-width: 100%
+}
+
 img.left {
     width:400px;
     height:auto;
     float:left;
-    margin:auto;
+    margin:kuto;
     margin-right:50px;
     margin-bottom:50px;
     box-shadow:5px 5px 5px rgba(0,0,0,.2);
@@ -200,7 +216,7 @@ img.right {
 /* Add an "active" class to the current link to let the user know which page he/she is on */
 /* https://www.w3schools.com/css/css_navbar.asp */
 .active {
-    background-color: #2d23ff;
+    background-color: #CCCCCC;
     color: white;
 }
 
